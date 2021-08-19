@@ -2,4 +2,4 @@
 
 ## Em construção 👷‍♂️
 
-Repositório da interface Web da Biblioteca de Processos Mapeados da GEAP Autogestão em Saúde.
+Interface Web da Biblioteca de Processos Mapeados para GEAP Autogestão em Saúde.
