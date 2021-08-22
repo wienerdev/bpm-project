@@ -1,4 +1,6 @@
-# Biblioteca de Processos Mapeados - GEAP Autogestão em Saúde 📚
+<h1 align="center">
+  <img src="files/logo_readme.png" width="220px" />
+</h1>
 
 ## Em construção 👷‍♂️
 

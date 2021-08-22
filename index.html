@@ -10,33 +10,85 @@
 </head>
 
 <body>
-    <div class="bodyAll">
-        <header>
-            <a href="#"><img src="./files/logo_geap.png" class="logo_geap"></a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Tutoriais</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="https://portal.geap.com.br/" target="_blank">Portal GEAP</a></li>
-            </ul>
-        </header>
-        <div class="content">
-            <div class="textBox">
-                <h2><span>Biblioteca de Processos Mapeados</span><br></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias vitae dolore rem dicta, quia enim provident eligendi! A, sequi? Voluptatum quaerat maiores vitae nesciunt incidunt? A aperiam similique id incidunt.</p>
-                <a href="#" class="saibaMais">Saiba mais</a>
+
+    <!-- Menu de navegação da página -->
+    <header>
+        <a href="#"><img src="./files/logo_geap.png" class="logo_geap"></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tutoriais</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="https://portal.geap.com.br/" target="_blank">Portal GEAP</a></li>
+        </ul>
+    </header>
+
+    <!-- Título e texto -->
+    <div class="content">
+        <div class="textBox">
+            <h2><span>Biblioteca de Processos Mapeados</span><br></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias vitae dolore rem dicta, quia enim
+                provident eligendi! A, sequi? Voluptatum quaerat maiores vitae nesciunt incidunt? A aperiam
+                similique id incidunt.</p>
+
+
+
+            <!-- Menu suspenso do AS IS -->
+            <div class="selectBox">
+
+                <div class="optionsContent">
+
+                    <div class="option">
+                        <input type="radio" class="radioCenarios" name="cenarioAsIs" id="radioCenarios" />
+                        <label for="cenarioFinalistico" id="labelCenarios">Finalístico</label>
+                    </div>
+
+                    <div class="option">
+                        <input type="radio" class="radioCenarios" name="cenarioAsIs" id="radioCenarios" />
+                        <label for="cenarioSuporteApoio" id="labelCenarios">Suporte e Apoio</label>
+                    </div>
+                </div>
+
+                <div class="selected">
+                    Cenário Atual
+                </div>
+
             </div>
 
-            <div class="imagemBiblioteca">
-                <img src="./files/biblioteca_processos.png">
-            </div>
+            <!-- Menu suspenso do TO BE -->
+            <div class="selectBox">
 
+                <div class="optionsContent">
+
+                    <div class="option">
+                        <input type="radio" class="radioCenarios" name="cenarioToBe" id="radioCenarios" />
+                        <label for="cenarioFinalistico" id="labelCenarios">Finalístico</label>
+                    </div>
+
+                    <div class="option">
+                        <input type="radio" class="radioCenarios" name="cenarioToBe" id="radioCenarios" />
+                        <label for="cenarioSuporteApoio" id="labelCenarios">Suporte e Apoio</label>
+                    </div>
+                </div>
+
+                <div class="selected">
+                    Cenário Futuro
+                </div>
+
+            </div>
         </div>
 
-        <footer>
-            Feito por Matheus Nicolay e Marcos Lazarin ©
-        </footer>
+        <!-- Imagem da biblioteca de processos -->
+        <div class="imagemBiblioteca">
+            <img src="./files/biblioteca_processos.png">
+        </div>
+
     </div>
+
+    <footer>
+        Feito por Matheus Nicolay e Marcos Lazarin ©
+    </footer>
+
+    <script src="js/main.js"></script>
 
 </body>
 
