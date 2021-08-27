@@ -1,10 +1,63 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
+:root {
+    --cor-padrao-azul: #11335b;
+    --cor-hover: #87bdfcc4;
+    --cor-primaria: #333;
+
+}
+
 * {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+/* Menu principal */
+.dp-menu ul {
+    /* background-color: var(--cor-padrao-azul); */
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+/* Sub menu */
+.dp-menu ul ul {
+    display: none;
+    position: absolute;
+    width: 145px;
+    left: 0;
+    opacity: 0;
+    transition: all .6s;
+
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+    opacity: 1;
+
+}
+
+.dp-menu ul ul li a {
+    display: block;
+
 }
 
 body {
@@ -20,48 +73,51 @@ body {
     align-items: center;
 }
 
-header {
+nav {
     position: absolute;
     top: 0;
-    Left: 0;
-    width: 100%;
-    padding: 20px 100px;
+    right: 220px;
+    /* width: 100%; */
+    /* padding: 20px 100px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header .logo_geap {
+
+nav .logo_geap {
     position: relative;
     max-width: 200px;
+    left: -70px;
 }
 
-header ul {
+/* nav ul {
     position: relative;
     display: flex;
 }
 
-header ul li {
+nav ul li {
     list-style: none;
 }
 
-header ul li a {
+nav ul li a {
     display: inline-block;
     color: #333;
     font-weight: 400;
     margin-left: 40px;
     text-decoration: none;
-}
+} */
 
 .imagemBiblioteca {
     position: absolute;
-    top: 140px;
-    left: 820px;
+    top: -70px;
+    left: 675px;
 }
 
 .content .textBox {
     position: relative;
     max-width: 600px;
+    bottom: 20px;
 }
 
 .content .textBox p {
@@ -76,7 +132,7 @@ header ul li a {
 
 }
 
-.saibaMais {
+/* .saibaMais {
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
@@ -86,85 +142,21 @@ header ul li a {
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
-}
+} */
 
-.selectBox {
-    display: inline-flex;
-    margin-top: 15px;
-    flex-direction: column;
-}
-
-.selectBox .optionsContent {
+/* .selectBox .optionsContent {
     background: #11345b;
-    /* #11345b */
     color: white;
     max-height: 0;
-    /* v -> Faz com que a barra seja selecionável, mas por enquanto deixei comentado senão vai ficar branco */
     width: 225px;
     opacity: 0;
     transition: all 0.4s;
     border-radius: 12px;
     overflow: hidden;
-    /* text-align: center; */
+    text-align: center;
 
     order: 1;
-}
-
-.optionsContent .options,
-.selected {
-    /* text-align: center; */
-    padding: 12px 24px;
-    cursor: pointer;
-}
-
-.optionsContent label {
-    cursor: pointer;
-    padding: 12px 24px;
-}
-
-.optionsContent .option:hover {
-    background: #315783b0;
-}
-
-.radioCenarios {
-    display: none;
-}
-
-.selected {
-    background: #11345b;
-    border-radius: 12px;
-    margin-bottom: 8px;
-    color: white;
-    position: relative;
-
-    order: 0;
-}
-
-.selected::after {
-    content: "";
-    background: url(../files/arrow-down.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    height: 100%;
-    width: 32px;
-    right: 10px;
-    top: 9px;
-    transition: all 0.4s;
-
-}
-
-.selectBox .optionsContent .active {
-    max-height: 200px;
-    opacity: 1;
-    overflow-y: scroll;
-}
-
-.selectBox .optionsContent .active+.selected::after {
-    transform: rotateX(180deg);
-    top: -6px;
-
-}
+} */
 
 footer {
     width: 100%;
