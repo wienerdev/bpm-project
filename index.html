@@ -12,15 +12,32 @@
 <body>
 
     <!-- Menu de navegação da página -->
-    <header>
+    <nav class="dp-menu">
+
         <a href="#"><img src="./files/logo_geap.png" class="logo_geap"></a>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Tutoriais</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#">Planos de Ação</a>
+                <ul>
+                    <li><a href="#">Power Apps</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Caderno de Indicadores</a></li>
+            <li><a href="#">Documentação</a>
+                <ul>
+                    <li><a href="#">POP</a></li>
+                    <li><a href="#">Indicadores</a></li>
+                    <li><a href="#">Disfunções</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Tutoriais</a>
+                <ul>
+                    <li><a href="#">Aprendizado em BPM</a></li>
+                </ul>
+            </li>
             <li><a href="https://portal.geap.com.br/" target="_blank">Portal GEAP</a></li>
         </ul>
-    </header>
+
+    </nav>
 
     <!-- Título e texto -->
     <div class="content">
@@ -33,62 +50,33 @@
 
 
             <!-- Menu suspenso do AS IS -->
-            <div class="selectBox">
+            <!-- <div class="selectBox">
+                <div class="OptionsContent">
+                    <select name="cenarioFinalistico" id="cenarioFinalistico">
+                        <div class="option">
+                        <a href="https://www.google.com"><option value="finalisticos">Finalístico</option>
+                        </div>
 
-                <div class="optionsContent">
-
-                    <div class="option">
-                        <input type="radio" class="radioCenarios" name="cenarioAsIs" id="radioCenarios" />
-                        <label for="cenarioFinalistico" id="labelCenarios">Finalístico</label>
-                    </div>
-
-                    <div class="option">
-                        <input type="radio" class="radioCenarios" name="cenarioAsIs" id="radioCenarios" />
-                        <label for="cenarioSuporteApoio" id="labelCenarios">Suporte e Apoio</label>
-                    </div>
+                        <div class="option">
+                        <option value="suporteApoio">Suporte e Apoio</option>
+                        </div>
+                    </select>
                 </div>
+            </div> -->
 
-                <div class="selected">
-                    Cenário Atual
-                </div>
+            <!-- </div>
+    </div> -->
 
+            <!-- Imagem da biblioteca de processos -->
+            <div class="imagemBiblioteca">
+                <img src="./files/biblioteca_processos.png">
             </div>
 
-            <!-- Menu suspenso do TO BE -->
-            <div class="selectBox">
+            <footer>
+                Feito por Matheus Nicolay e Marcos Lazarin ©
+            </footer>
 
-                <div class="optionsContent">
-
-                    <div class="option">
-                        <input type="radio" class="radioCenarios" name="cenarioToBe" id="radioCenarios" />
-                        <label for="cenarioFinalistico" id="labelCenarios">Finalístico</label>
-                    </div>
-
-                    <div class="option">
-                        <input type="radio" class="radioCenarios" name="cenarioToBe" id="radioCenarios" />
-                        <label for="cenarioSuporteApoio" id="labelCenarios">Suporte e Apoio</label>
-                    </div>
-                </div>
-
-                <div class="selected">
-                    Cenário Futuro
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Imagem da biblioteca de processos -->
-        <div class="imagemBiblioteca">
-            <img src="./files/biblioteca_processos.png">
-        </div>
-
-    </div>
-
-    <footer>
-        Feito por Matheus Nicolay e Marcos Lazarin ©
-    </footer>
-
-    <script src="js/main.js"></script>
+            <script src="js/main.js"></script>
 
 </body>
 
