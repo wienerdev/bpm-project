@@ -8,13 +8,17 @@
 }
 
 * {
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
 /* Menu principal */
+.dp-menu {
+    top: 20px;
+}
+
 .dp-menu ul {
     /* background-color: var(--cor-padrao-azul); */
     list-style-type: none;
@@ -60,6 +64,64 @@
 
 }
 
+/* Formatação do dropdown */
+.dropbtn {
+    background-color: var(--cor-padrao-azul);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 175px;
+    border-radius: 15px;
+}
+
+/* Posição do dropdown*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    right: -85px;
+    top: 20px;
+}
+
+/* Conteúdo do dropdown (escondido pelo Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(146, 143, 143, 0.2);
+    z-index: 1;
+    border-radius: 15px;
+    width: 175px;
+
+}
+
+/* Link dentro do dropdown */
+.dropdown-content a {
+    color: var(--cor-padrao-azul);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 15px;
+}
+
+/* Cor hover do dropwdown */
+.dropdown-content a:hover {
+    background-color: var(--cor-hover)
+}
+
+/* Mostra o dropdown menu no hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Muda a cor de fundo quando o dropdown é selecionado */
+.dropdown:hover .dropbtn {
+    background-color: #041f3d;
+}
+
 body {
     background-image: url("../files/fundo_principal.png");
     background-repeat: no-repeat;
@@ -76,12 +138,10 @@ body {
 nav {
     position: absolute;
     top: 0;
-    right: 220px;
-    /* width: 100%; */
-    /* padding: 20px 100px; */
+    /* right: 220px; */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 }
 
 
@@ -90,23 +150,6 @@ nav .logo_geap {
     max-width: 200px;
     left: -70px;
 }
-
-/* nav ul {
-    position: relative;
-    display: flex;
-}
-
-nav ul li {
-    list-style: none;
-}
-
-nav ul li a {
-    display: inline-block;
-    color: #333;
-    font-weight: 400;
-    margin-left: 40px;
-    text-decoration: none;
-} */
 
 .imagemBiblioteca {
     position: absolute;
@@ -131,32 +174,6 @@ nav ul li a {
     font-weight: 800;
 
 }
-
-/* .saibaMais {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 8px 20px;
-    background-color: #11335b;
-    color: #fff;
-    border-radius: 40px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
-} */
-
-/* .selectBox .optionsContent {
-    background: #11345b;
-    color: white;
-    max-height: 0;
-    width: 225px;
-    opacity: 0;
-    transition: all 0.4s;
-    border-radius: 12px;
-    overflow: hidden;
-    text-align: center;
-
-    order: 1;
-} */
 
 footer {
     width: 100%;
