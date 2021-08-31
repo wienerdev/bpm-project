@@ -19,5 +19,5 @@ A **Biblioteca de Processos Mapeados** é uma aplicação web para acompanhament
 
 ## 📌 Como utilizar?
 
-Para utilizar a Biblioteca de Processos Mapeados, basta acessá-lo diretamente no seu navegador! [Clique aqui](https://bpm-project.vercel.app/)
+Para utilizar a Biblioteca de Processos Mapeados, basta acessá-lo diretamente no seu navegador! [Clique aqui para acessar.](https://bpm-project.vercel.app/)
 
