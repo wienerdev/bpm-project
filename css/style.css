@@ -39,11 +39,9 @@ body {
 }
 
 header .container {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
 
-    width: 90%;
+    width: 100%;
     max-width: 980px;
 
     margin: auto;
@@ -52,8 +50,11 @@ header .container {
 /* Logo da GEAP do menu principal */
 header img {
     max-height: 60px;
-    margin-bottom: 260%;
-    margin-left: 30px;
+    margin-left: 50px;
+    position: absolute;
+    top: 10px;
+    bottom: 20px;
+    
 
 }
 
@@ -95,7 +96,7 @@ header .dp-menu ul li a:hover {
 header .dp-menu ul ul {
     display: none;
     position: absolute;
-    width: 145px;
+    width: 121px;
     left: 0;
     opacity: 0;
     transition: all .6s;
