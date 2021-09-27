@@ -1,1 +1,20 @@
-{ "engines" : { "node" : ">=14.17.6" } }
+{
+  "name": "bpm-project",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">\r Em construção 👷‍♂️\r </h1>\r  <br>\r <h1 align=\"center\">\r   <img src=\"https://user-images.githubusercontent.com/78852609/130326454-905900be-15fb-42ed-bc24-2285f3326d4f.png\" width=\"700px\" />\r </h1>\r <br>\r <br>\r <h2>🖥️ Protótipo </h2>\r   <p align=\"center\">\r     <img src=\"https://user-images.githubusercontent.com/78852609/130326546-9e81ee42-0307-49b6-a4d8-583710db7fb7.PNG\" width=\"100%\">\r   </p>\r </br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wienerdev/bpm-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wienerdev/bpm-project/issues"
+  },
+  "homepage": "https://github.com/wienerdev/bpm-project#readme"
+}
