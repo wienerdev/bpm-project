@@ -42,8 +42,7 @@ body {
 
 header .container {
     justify-content: space-between;
-    position: fixed;
-    left: 0;
+    position: absolute;
     top: 3%;
     width: 100%;
 
