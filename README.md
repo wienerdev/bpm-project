@@ -32,5 +32,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 📌 Como utilizar?
 
-Para utilizar a Biblioteca de Processos Mapeados, basta acessá-lo diretamente no seu navegador! [Clique aqui para acessar.](bpm-geap.netlify.app/)
+Para utilizar a Biblioteca de Processos Mapeados, basta acessá-lo diretamente no seu navegador! <a href="bpm-geap.netlify.app/" target="_blank">Clique aqui para acessar.</a>
 
