@@ -15,5 +15,9 @@ Em construção 👷‍♂️
 
 ## 💬 Sobre o projeto
 
-A **Biblioteca de Processos Mapeados** é uma aplicação web para acompanhamento e consulta dos processos mapeados e modelados pelo Escritório de Processos da GEAP Autogestão em Saúde, assim como consulta da documentação e link para aplicativos do Plano de Ação!
+A **Biblioteca de Processos Mapeados** é uma aplicação web para acompanhamento e consulta dos processos mapeados e modelados pelo Escritório de Processos da GEAP Autogestão em Saúde, possibilitando também a consulta da documentação e link para aplicativos do Plano de Ação!
+
+## 📌 Como utilizar?
+
+Para utilizar a Biblioteca de Processos Mapeados, basta acessá-lo diretamente no seu navegador! [Clique aqui para acessar.](https://bpm-project.vercel.app/)
 
