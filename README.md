@@ -18,7 +18,8 @@ Caso você queira ver todas as funcionalidades do website, [clique aqui!](https:
 ## 🧠 Funcionalidades
 
 <ul>
-  <li>Consulta de processos Finalísticos (Relacionamento/Assistencial) e Suporte e Apoio (Apoio à Gestão);</li>
+  <li>Consulta de processos mapeados pelo time do Escritório de Processos, envolvendo todas as áreas essenciais da empresa;</li>
+  <li>Acesso aos "POP - Procedimento Operacional Padrão", usado para normalizar as atividades dos processos nas filiais de todo Brasil;</li>
   <li>Redirecionamento para intranet da empresa;</li>
   <li>Consulta do aplicativo de Monitoramento do Planejamento Estratégico (PowerApps);</li>
  <li>Vídeos tutoriais para acesso da Biblioteca de Processos e como estruturar um POP;</li>
